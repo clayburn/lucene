@@ -18,7 +18,7 @@
 def isCIBuild = System.getenv().keySet().find { it ==~ /(?i)((JENKINS|HUDSON)(_\w+)?|CI)/ } != null
 
 develocity {
-    server = "https://ge.apache.org"
+    server = "https://ge.solutions-team.gradle.com"
     projectId = "lucene"
 
     buildScan {
